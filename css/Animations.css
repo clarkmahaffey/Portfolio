@@ -1,0 +1,81 @@
+html {
+    background: #e6e9e9;
+    background-image: linear-gradient(0deg, rgb(0, 233, 233) 0%, rgb(100, 140, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-family: Futura, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+h2 {
+    font-family: Futura;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+h3 {
+    font-family: Futura;
+    font-size: 1em;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+img {
+    align-content: center;
+}
+div{
+    font-family: Futura;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+}
+h4 {
+    font-family: Futura;
+    font-size: 1em;
+    text-align: right;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    text-shadow: 1px 1px black;
+    color: white;
+}
+h6 {
+    object-fit: cover;
+    text-align: left;
+    font-family: Futura;
+    font-size: 1em;
+    color: white;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+h8 {
+    background: white;
+    width: 95%;
+    height: 144%;
+    position: absolute;
+    z-index: -3;
+    margin-left: 20px;
+    opacity: 20%;
+}
+h9 {
+    background: clear;
+    height: 5%;
+}
+#curve {
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: auto;
+    left: 0;
+    opacity: 20%;
+    top: 90%;
+    transform: translateY(-100%);
+}
+#whitelink {
+    color: white;
+}
